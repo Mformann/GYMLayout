@@ -37,7 +37,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-zinc-950 border-t border-zinc-900 py-12 px-4 sm:px-6 lg:px-8 mt-auto">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             {/* Logo & Description */}
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">

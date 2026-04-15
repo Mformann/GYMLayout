@@ -67,7 +67,7 @@ export function About() {
             <img
               src="https://images.unsplash.com/photo-1704223523518-e3ce27879f99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMHRyYWluZXIlMjB3b3Jrb3V0JTIwbW90aXZhdGlvbnxlbnwxfHx8fDE3NzE5MjMwNzh8MA&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Doctor consulting patient"
-              className="rounded-2xl w-full h-[500px] object-cover"
+              className="rounded-2xl w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-2xl" />
           </motion.div>

@@ -102,7 +102,7 @@ export function DietFinder() {
         <div className="grid lg:grid-cols-3 gap-12">
           {/* Controls Panel */}
           <motion.div 
-            className="lg:col-span-1 bg-zinc-950 p-8 rounded-2xl border border-zinc-800 h-fit sticky top-28"
+            className="lg:col-span-1 bg-zinc-950 p-8 rounded-2xl border border-zinc-800 h-fit lg:sticky lg:top-28"
              initial={{ opacity: 0, x: -30 }}
              animate={{ opacity: 1, x: 0 }}
              transition={{ duration: 0.6 }}

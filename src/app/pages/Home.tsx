@@ -22,7 +22,7 @@ export function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section id="home" className="relative h-screen flex items-center justify-center pt-20">
+      <section id="home" className="relative min-h-[100dvh] flex items-center justify-center pt-32 pb-20 lg:h-screen lg:pt-20 lg:pb-0">
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1761971975769-97e598bf526b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaXRuZXNzJTIwZ3ltJTIwaW50ZXJpb3IlMjBlcXVpcG1lbnQlMjBtb2Rlcm58ZW58MXx8fHwxNzcxOTIzMDc4fDA&ixlib=rb-4.1.0&q=80&w=1080"
@@ -121,7 +121,7 @@ export function Home() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <TestimonialCard
               name="Sarah Johnson"
               role="Reversed Type-2 Diabetes"
